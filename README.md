@@ -8,7 +8,6 @@
 ```bash
 python -m venv venv
 ```
-```
 
 ### 2. Activate Virtual Environment
 #### For macOS/Linux:
