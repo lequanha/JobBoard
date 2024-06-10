@@ -96,15 +96,15 @@ After that, I can re-check if the Job can be listed
 
 <img src="images/be_putjobs_idnotfound.png">
 
-## If Update (PUT) a Job successfully
+## Update (PUT) a Job successfully
 
 <img src="images/be_putjobs.png">
 
-## If Delete a Job by a Wrong ID
+## Return Error if Delete a Job by a Wrong ID
 
 <img src="images/be_deletejobs_wrongid.png">
 
-## If Delete a Job Successfully
+## Delete a Job Successfully
 
 <img src="images/be_deletejobs.png">
 
@@ -136,6 +136,6 @@ After added, I re-list all the jobs to see the new one
 
 <img src="images/fe_jobupdate.png">
 
-## I click the X button on the Job List to delete JOb #3
+## I click the X button on the Job List to delete Job #3
 
 <img src="images/fe_jobdelete.png">
