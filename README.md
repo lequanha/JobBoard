@@ -56,6 +56,8 @@ npm install
 npm start
 ```
 
+<img src="images/fe_npmstart.png">
+
 ## Accessing the Application
 - Once both the backend Flask server and frontend development server are running, you can access the application in your web browser at `http://localhost:3000`.
 
