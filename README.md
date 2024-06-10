@@ -2,6 +2,14 @@
 
 # Project Setup Guide
 
+These below are my versions
+
+Python 3.12.3
+
+npm 10.5.2
+
+NodeJS v20.13.1
+
 ## Backend Setup (Python Flask)
 
 ### 1. Create Python 3.12 Virtual Environment
@@ -21,12 +29,12 @@ venv\Scripts\activate
 
 ### 3. Install Dependencies
 ```bash
+cd backend
 pip install -r requirements.txt
 ```
 
 ### 4. Run Flask Server
 ```bash
-cd Backend
 flask run
 ```
 
@@ -37,7 +45,7 @@ flask run
 
 ### 2. Install Dependencies
 ```bash
-cd Frontend
+cd frontend
 npm install
 ```
 
