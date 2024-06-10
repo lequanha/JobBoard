@@ -66,25 +66,37 @@ npm start
 I use POSTMAN software to test if the Backend working properly
 ## Get All Jobs
 
+GET request to http://localhost:5000/jobs
+
 <img src="images/be_getjobs.png">
 
-## Get A Job by Id
+## Get A Job by Id 
+
+I check with id = 2, so it is a GET request to http://localhost:5000/jobs/2
 
 <img src="images/be_getjobid.png">
 
 ## Return Error if Get a Wrong ID
 
+I check with id = 6 that there is no job with id = 6, so it is a GET request to http://localhost:5000/jobs/6
+
 <img src="images/be_getjobsid_notfound.png">
 
 ## Return Error if Add an Existing Job
+
+I try to send POST request to re-add the whole job content of Job #2. So it is a POST request to http://localhost:5000/jobs 
 
 <img src="images/be_postjobs_dup.png">
 
 ## Return Error if Add a Job without a Name
 
+I try to send POST request to add a new job but I suppose to forget the customer name. So it is a POST request to http://localhost:5000/jobs 
+
 <img src="images/be_postjobs_wocustomername.png">
 
 ## Return the New Job if Added Successfully
+
+So it is a POST request to http://localhost:5000/jobs 
 
 <img src="images/be_postjobs.png">
 
@@ -94,17 +106,25 @@ After that, I can re-check if the Job can be listed
 
 ## Return Error if Update (PUT) with a wrong Job ID
 
+I check with id = 4 that there is no job with id = 4, so it is a PUT request to http://localhost:5000/jobs/4
+
 <img src="images/be_putjobs_idnotfound.png">
 
 ## Update (PUT) a Job successfully
+
+I update the newly added job with id = 3, so it is a PUT request to http://localhost:5000/jobs/3
 
 <img src="images/be_putjobs.png">
 
 ## Return Error if Delete a Job by a Wrong ID
 
+I check with id = 4 that there is no job with id = 4, so it is a DELETE request to http://localhost:5000/jobs/4
+
 <img src="images/be_deletejobs_wrongid.png">
 
 ## Delete a Job Successfully
+
+I delete the newly added job with id = 3, so it is a DELETE request to http://localhost:5000/jobs/3
 
 <img src="images/be_deletejobs.png">
 
