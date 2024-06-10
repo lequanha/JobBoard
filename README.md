@@ -3,7 +3,6 @@
 # Project Setup Guide
 
 ## Backend Setup (Python Flask)
-## Frontend Setup (React Bootstrap)
 
 ### 1. Create Python 3.12 Virtual Environment
 ```bash
