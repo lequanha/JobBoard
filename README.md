@@ -38,6 +38,8 @@ pip install -r requirements.txt
 flask run
 ```
 
+<img src="images/be_flaskrun.png">
+
 ## Frontend Setup (React)
 
 ### 1. Install Node.js and npm
