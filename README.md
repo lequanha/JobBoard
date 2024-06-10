@@ -1,6 +1,5 @@
 # ProfitFill / ADHOME Assignment
 
-```markdown
 # Project Setup Guide
 
 ## Backend Setup (Python Flask)
