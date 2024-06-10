@@ -1,0 +1,1 @@
+[{"appointmentDate": "2024-06-10T13:42:00Z", "customerName": "John Doe", "id": 1, "jobType": "Plumbing", "status": "Scheduled", "technician": "Jane Smith"}, {"appointmentDate": "2024-05-20T14:00:00Z", "customerName": "Alice Johnson", "id": 2, "jobType": "Electrical", "status": "Completed", "technician": "Bob Brown"}]
