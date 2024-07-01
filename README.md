@@ -1,5 +1,3 @@
-# ProfitFill / ADHOME Assignment
-
 # Project Setup Guide
 
 These below are my versions
